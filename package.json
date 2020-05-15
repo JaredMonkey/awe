@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/avaer/awe/issues"
   },
-  "homepage": "https://github.com/avaer/awe#readme"
+  "homepage": "https://github.com/avaer/awe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
