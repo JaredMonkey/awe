@@ -3,19 +3,54 @@
 <head>
 <style>
 body {
+  display: flex;
   margin: 0;
+  background-color: #000;
+  justify-content: center;
+}
+.splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
 }
 .splash img {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+  width: inherit;
+  height: inherit;
   object-fit: cover;
+}
+.wrap {
+  position: relative;
+  width: 400px;
+  margin-top: 400px;
+  margin-bottom: 100px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #111;
+  color: #FFF;
+  line-height: 1.6;
 }
 </style>
 </head>
 <body>
   <div class=splash>
   	<img src="eventsplash.png">
+  </div>
+  <div class=wrap>
+  	<h3>Description:</h3>
+	Join Adrian Biedrzycki (CEO Exokit Inc.), Jared Cheshier (CTO Pluto VR), and  Forest Gibson (Director of Labs Pluto VR) for a A joint report around the state of multi-user, multi-app spatial computing. They'll discuss what it means to be virtually co-present while operating multiple applications in spatial computing, how applications might interact with each other across different VR systems, development of standards to facilitate interoperability, and what historical technological transitions can be looked back upon for inspiration and lessons.
+	<h3>How to join:</h3>
+	Go here to join the presentation in Mozilla Hubs <LINK>. Once we hit room capacity, please join in our second room here <LINK> (We will be presenting in both rooms)
+	Supported Devices:
+	<h4>Supported devices & browsers</h4>
+	Since Hubs runs in the browser it works across many different platforms.
+	<h4>For 2D experience</h4>
+	Hubs works on most modern desktop browsers on Windows, Mac and Linux. It also works on most mobile browsers for Android, and Safari on iOS.
+	<h4>For VR experience</h4>
+	For Desktop VR (Oculus Rift, Windows Mixed Reality, or HTC Vive) Hubs works when used with a WebVR compatible browser (e.g. Firefox). Users must also have either Oculus Desktop App (Oculus rift), or SteamVR installed (Windows Mixed Reality, HTC Vive).
+	For Standalone VR devices (Pico Neo 2, Oculus Quest and Oculus Go) Hubs works in the Mozilla Firefox Reality Browser or the Oculus Browser.
+	Mobile phone powered VR systems, such as Samsung Gear and Google Cardboard, work using Google Chrome browser.
+	Note that some features may be limited on low-powered devices such as mobile phones.https://hubs.mozilla.com/docs/hubs-create-join-rooms.html#supported-devices--browsers
   </div>
 </body>
 </html>
